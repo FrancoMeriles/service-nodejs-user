@@ -2,7 +2,7 @@
 
 This Project is a service using nodeJS, ExpressJS and the api [User Api](https://app.swaggerhub.com/apis/jbrizio/ms-users-api/1.0.0) for a training evaluation. 
 
-### Folder Structure
+### Architecture
 
 ```
 └── src
@@ -20,7 +20,8 @@ This Project is a service using nodeJS, ExpressJS and the api [User Api](https:/
 │   │   │   └── getAge.js
 │   └── infrastructure
 │   │   └── service
-│   │   │   └── userRequest.js
+│   │      └── userRequest.js
+│   └── index.js
 └── .gitignore
 └── .eslintrc.json
 └── package.json
