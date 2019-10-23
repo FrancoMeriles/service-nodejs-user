@@ -1,0 +1,59 @@
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: 'Service - Node JS'
+  description: 'Service created with ExpressJS'
+host: localhost
+basePath: '/api'
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /users:
+    get:
+      tags:
+        - Users
+      summary: "Get all users"
+      responses:
+        200:
+          $ref: '#/responses/get_all_users'
+        500:
+          $ref: '#/responses/fatal_error'
+responses:
+  fatal_error:
+    description: Fatal Error
+    schema:
+      type: object
+      properties:
+        message:
+          type: string
+        code:
+          type: integer
+          example: 500
+  get_all_users:
+    description: OK
+    schema:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: integer
+          name:
+            type: string
+          lastname:
+            type: string
+          birthday:
+            type: string
+          is_active:
+            type: boolean
+          email:
+            type: string
+            format: email
+          genre:
+            type: string
+          age:
+            type: integer
