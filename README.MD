@@ -59,7 +59,7 @@ Open the proyect in your localhost port `4000`
 | ------ | ---------------------- | ------------------- |
 | Users  | `/api/users`           | List of users       |
 
-## Lint 
+### Lint 
 
 In this project i used [eslint](https://eslint.org/) with the specification of [Airbnb](https://github.com/airbnb/javascript), you can run the test with the following command
 
@@ -67,7 +67,7 @@ In this project i used [eslint](https://eslint.org/) with the specification of [
 npm run lint
 ```
 
-## Lint 
+### Lint 
 
 In this project i used [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/) for testing, you can run this tests with the following command
 
@@ -75,7 +75,7 @@ In this project i used [Mocha](https://mochajs.org/) and [Chai](https://www.chai
 npm test
 ```
 
-## Swagger
+### Swagger
 
 To see the project with swagger, install [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) in your [Visual Studio Code](https://code.visualstudio.com/)
 
