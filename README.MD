@@ -61,4 +61,6 @@ Open the proyect in your localhost port `4000`
 
 ## Swagger
 
-MIT
+To see the project with swagger, install [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) in your [Visual Studio Code](https://code.visualstudio.com/)
+
+- Open the command pallet with <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> and type `Preview Swagger`
