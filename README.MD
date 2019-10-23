@@ -36,7 +36,7 @@ This Project is a service using nodeJS, ExpressJS and the api [User Api](https:/
 npm install
 ```
 
-- Create a `.env` file in the root directory and place the following.
+- Create a `.env` file in the root directory and place the following ***in a real readme the url value would not go, only for testing***.
 
 ```
 USER_SERVICE_URL= "https://2eja2nqth0.execute-api.us-east-1.amazonaws.com/api"
