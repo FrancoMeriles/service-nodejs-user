@@ -1,6 +1,6 @@
 # Service - Node JS 
 
-This Project is a service using nodeJS, ExpressJS and the api [User Api](https://app.swaggerhub.com/apis/jbrizio/ms-users-api/1.0.0) for a training evaluation. 
+This Project is a service using nodeJS, ExpressJS and the api [User Api](https://app.swaggerhub.com/apis/jbrizio/ms-users-api/1.0.0) for a training evaluation following this [assessment](https://github.com/jbrizio/node-rest-api-boilerplate).
 
 ### Architecture
 
@@ -80,3 +80,7 @@ npm test
 To see the project with swagger, install [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) in your [Visual Studio Code](https://code.visualstudio.com/)
 
 - Open the command pallet with <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd> and type `Preview Swagger`
+
+
+
+### Thanks 🙌
