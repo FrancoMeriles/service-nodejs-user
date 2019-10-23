@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: '1.0.0'
   title: 'Service - Node JS'
-  description: 'API Rest created with Express'
+  description: 'Service created with ExpressJS'
 host: localhost
 basePath: '/api'
 schemes:

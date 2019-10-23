@@ -9,7 +9,7 @@ class User {
     const usersFilter = response.users.filter((user) => user.is_active);
     // Sort by lastname
     const usersSort = usersFilter.sort((a, b) => a.lastname.localeCompare(b.lastname));
-    // Add age
+    // Add age property
     const users = usersSort.map((user) => ({ ...user, age: getAge(user.birthday) }));
     return users;
   }
