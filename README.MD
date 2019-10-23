@@ -36,7 +36,7 @@ This Project is a service using nodeJS, ExpressJS and the api [User Api](https:/
 npm install
 ```
 
-- Create a `.env` file in the root directory and place the following.
+- Create a `.env` file in the root directory and place the following ***in a real readme the url value would not go, only for testing***.
 
 ```
 USER_SERVICE_URL= "https://2eja2nqth0.execute-api.us-east-1.amazonaws.com/api"
@@ -59,7 +59,23 @@ Open the proyect in your localhost port `4000`
 | ------ | ---------------------- | ------------------- |
 | Users  | `/api/users`           | List of users       |
 
-## Swagger
+### Linter
+
+In this project i used [eslint](https://eslint.org/) with the specification of [Airbnb](https://github.com/airbnb/javascript), you can run the test with the following command
+
+```sh
+npm run lint
+```
+
+### Testing 
+
+In this project i used [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/) for testing, you can run this tests with the following command
+
+```sh
+npm test
+```
+
+### Swagger
 
 To see the project with swagger, install [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) in your [Visual Studio Code](https://code.visualstudio.com/)
 
