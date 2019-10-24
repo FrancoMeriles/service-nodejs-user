@@ -11,4 +11,13 @@ describe('getAge function', () => {
     // Perform the actual test
     expect(age).to.be.equal(result);
   });
+
+  it('Should return a incorrect age', () => {
+    // Get the result from getAge function
+    const age = getAge('1983-05-17');
+    const result = 34;
+
+    // Perform the actual test
+    expect(age).to.not.equal(result);
+  });
 });
